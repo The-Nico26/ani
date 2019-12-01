@@ -6,7 +6,10 @@ Malheureusement, la nasa a désactivé la recherche par mot clés :
 
 # Par NodeJS
 npm install
+
 node index
+
+Ensuite : http://localhost:3000
 
 # Uniquement par navigateur
 Cliquez sur index.html
