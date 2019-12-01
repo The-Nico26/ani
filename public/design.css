@@ -1,0 +1,48 @@
+/* L'image de fond du site */
+body{
+	background: no-repeat center center fixed;
+    background-image: none;
+
+	background-size:cover;
+	-o-background-size:cover;
+	-webkit-background-size:cover;
+    -moz-background-size:cover;
+}
+/* Le positionnement du cadre sur la page */
+article {
+	width: 50vw;
+    height: 20vh;
+    background-color: rgba(1,1,1,.7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+/* Permet de mettre un avatar correctement */
+#profil {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    background-image: none;
+    border-radius: 15px;
+
+	background-size:cover;
+	-o-background-size:cover;
+	-webkit-background-size:cover;
+    -moz-background-size:cover;
+}
+
+/* Redéfinition des couleurs pour le site */
+form{
+    color: initial;
+}
+.pure-form legend{
+    color: white;
+    font-weight: bold;
+}

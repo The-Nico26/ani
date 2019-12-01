@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>ANI - Picture</title>
+        <script src="public/md5.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="public/api.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css">
+        <link rel="stylesheet" href="public/design.css">
+    </head>
+    <body>
+        <article>
+            <div id="profil"></div>
+            <span id="info">...</span>
+            <span>
+                <form class="pure-form">
+                    <fieldset>
+                        <legend>New date:</legend>
+                        <input type="date" name="date" placeholder="YYYY-MM-DD">
+                        <a class="pure-button pure-button-primary" onclick="refresh()">Search image</a>
+                    </fieldset>
+                </form>
+            </span>
+        </article>
+    </body>
+</html>
